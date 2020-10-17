@@ -1,0 +1,12 @@
+image 
+matplotlib
+#torch
+torchvision
+numpy 
+opencv-python
+moviepy
+pydub
+pytube3
+Flask
+flask-restful
+
