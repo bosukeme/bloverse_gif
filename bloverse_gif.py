@@ -268,10 +268,11 @@ def run_all(youtube_link):
     
     generate_video(nframes, "content/output.mp4" )
     
-
-    extract_mp3_audio_from_mp4_file(cropped_vid, "content/audio.mp3")
     
-    final_output=append_image_and_audio("content/output.mp4", "content/audio.mp3", "content/complete.mp4")
+    #This line below is used when a video is not imported from YouTube.
+    #extract_mp3_audio_from_mp4_file(cropped_vid, "content/audio.mp3")
+    
+    final_output=append_image_and_audio("content/output.mp4", "content/test_audio.mp3", "content/complete.mp4")
     
 
     os.system("sudo rm -r content/images/trimaps")
